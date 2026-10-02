@@ -1,0 +1,4 @@
+langgraph>=0.4
+mlflow>=3.4
+openai>=1.40
+pytest>=8

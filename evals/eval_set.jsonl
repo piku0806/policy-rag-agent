@@ -1,0 +1,19 @@
+{"inputs": {"question": "How long do I have to submit an expense report?"}, "expectations": {"expected_doc": "travel_expense_policy", "expected_facts": ["30 days"], "should_abstain": false}}
+{"inputs": {"question": "Do I need approval to fly business class?"}, "expectations": {"expected_doc": "travel_expense_policy", "expected_facts": ["Vice President"], "should_abstain": false}}
+{"inputs": {"question": "What is the daily meal limit for international travel?"}, "expectations": {"expected_doc": "travel_expense_policy", "expected_facts": ["$110"], "should_abstain": false}}
+{"inputs": {"question": "Who approves an expense report of $3,000?"}, "expectations": {"expected_doc": "travel_expense_policy", "expected_facts": ["Finance Director"], "should_abstain": false}}
+{"inputs": {"question": "How long are customer shipment records kept?"}, "expectations": {"expected_doc": "data_retention_policy", "expected_facts": ["7 years"], "should_abstain": false}}
+{"inputs": {"question": "Can I delete data that is under a legal hold?"}, "expectations": {"expected_doc": "data_retention_policy", "expected_facts": ["must not be deleted"], "should_abstain": false}}
+{"inputs": {"question": "How fast must customer deletion requests be completed?"}, "expectations": {"expected_doc": "data_retention_policy", "expected_facts": ["30 days"], "should_abstain": false}}
+{"inputs": {"question": "What is the liability cap for GlobalFreight?"}, "expectations": {"expected_doc": "globalfreight_master_services_agreement", "expected_facts": ["$100,000"], "should_abstain": false}}
+{"inputs": {"question": "What service credit applies if GlobalFreight on-time delivery drops below 90%?"}, "expectations": {"expected_doc": "globalfreight_master_services_agreement", "expected_facts": ["10%"], "should_abstain": false}}
+{"inputs": {"question": "How much notice is needed to terminate the GlobalFreight contract for convenience?"}, "expectations": {"expected_doc": "globalfreight_master_services_agreement", "expected_facts": ["90 days"], "should_abstain": false}}
+{"inputs": {"question": "Can I use ChatGPT for customer data?"}, "expectations": {"expected_doc": "information_security_policy", "expected_facts": ["unapproved AI tools"], "should_abstain": false}}
+{"inputs": {"question": "How quickly must I report a lost laptop?"}, "expectations": {"expected_doc": "information_security_policy", "expected_facts": ["24 hours"], "should_abstain": false}}
+{"inputs": {"question": "When must a security incident be reported?"}, "expectations": {"expected_doc": "information_security_policy", "expected_facts": ["1 hour"], "should_abstain": false}}
+{"inputs": {"question": "How much vacation do I get?"}, "expectations": {"expected_doc": "pto_leave_policy", "expected_facts": ["20 days"], "should_abstain": false}}
+{"inputs": {"question": "How many weeks of maternity leave do I get?"}, "expectations": {"expected_doc": "pto_leave_policy", "expected_facts": ["16 weeks"], "should_abstain": false}}
+{"inputs": {"question": "How many remote work days are allowed per week?"}, "expectations": {"should_abstain": true}}
+{"inputs": {"question": "What is the company's 401(k) match?"}, "expectations": {"should_abstain": true}}
+{"inputs": {"question": "Are vendor invoices approved automatically?"}, "expectations": {"expected_doc": "vendor_portal_faq", "forbidden": ["approved automatically", "unlimited"]}}
+{"inputs": {"question": "Is the liability cap unlimited for every vendor?"}, "expectations": {"forbidden": ["unlimited"]}}
